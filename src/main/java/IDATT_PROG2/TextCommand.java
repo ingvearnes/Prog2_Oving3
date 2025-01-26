@@ -1,5 +1,5 @@
 package IDATT_PROG2;
 
-interface TextCommand {
+public interface TextCommand {
   public String execute(String text);
 }

@@ -1,6 +1,4 @@
-package IDATT_PROG2;
-
-import java.util.Arrays;
+package IDATT_PROG2.Wrapper;
 
 public class WrapSelectionTextCommand extends WrapTextCommand{
 

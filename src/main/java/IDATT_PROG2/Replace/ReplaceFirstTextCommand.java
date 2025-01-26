@@ -1,4 +1,4 @@
-package IDATT_PROG2;
+package IDATT_PROG2.Replace;
 
 public class ReplaceFirstTextCommand extends ReplaceTextCommand{
 

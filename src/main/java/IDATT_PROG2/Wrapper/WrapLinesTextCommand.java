@@ -1,4 +1,4 @@
-package IDATT_PROG2;
+package IDATT_PROG2.Wrapper;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;

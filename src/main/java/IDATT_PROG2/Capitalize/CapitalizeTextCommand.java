@@ -1,6 +1,8 @@
-package IDATT_PROG2;
+package IDATT_PROG2.Capitalize;
 
-public class CapitalizeTextCommand implements TextCommand{
+import IDATT_PROG2.TextCommand;
+
+public class CapitalizeTextCommand implements TextCommand {
 
 
   @Override

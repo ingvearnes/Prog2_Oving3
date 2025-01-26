@@ -1,6 +1,8 @@
-package IDATT_PROG2;
+package IDATT_PROG2.Replace;
 
-public class ReplaceTextCommand implements TextCommand{
+import IDATT_PROG2.TextCommand;
+
+public class ReplaceTextCommand implements TextCommand {
 
   protected String target;
   protected String replacement;

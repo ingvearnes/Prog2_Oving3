@@ -1,6 +1,8 @@
-package IDATT_PROG2;
+package IDATT_PROG2.Wrapper;
 
-public class WrapTextCommand implements TextCommand{
+import IDATT_PROG2.TextCommand;
+
+public class WrapTextCommand implements TextCommand {
 
   protected String opening;
   protected String end;
