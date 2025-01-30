@@ -8,5 +8,8 @@ class CapitalizeWordsTextCommandTest {
 
   @Test
   void execute() {
+    CapitalizeWordsTextCommand capitalizeWordsTextCommand = new CapitalizeWordsTextCommand();
+
+    assertEquals("Cappa. Cappa. Zappa De Cappa",capitalizeWordsTextCommand.execute("cappa. cappa. zappa de cappa"));
   }
 }

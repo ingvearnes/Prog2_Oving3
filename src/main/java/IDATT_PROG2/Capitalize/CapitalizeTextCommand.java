@@ -7,6 +7,14 @@ public class CapitalizeTextCommand implements TextCommand {
 
   @Override
   public String execute(String text) {
-    return text.substring(0,1).toUpperCase() + text.substring(1);
+    String[] sentences = text.split("(?<=\\.)");
+    StringBuilder result = new StringBuilder();
+
+    for(String sentence : sentences){
+      sentence = sentence.trim();
+      String capitalizedSentence = sentence.substring(0,1).toUpperCase() + sentence.substring(1);
+      result.append(capitalizedSentence).append(" ");
+    }
+    return result.toString();
   }
 }

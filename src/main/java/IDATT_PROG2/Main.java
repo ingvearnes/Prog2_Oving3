@@ -30,7 +30,7 @@ public class Main {
         //System.out.println(replaceFirstTextCommand.execute("Jeg ønsker deg bra."));
 
         //CapitalizeTextCommand capitalizeTextCommand = new CapitalizeTextCommand();
-        //System.out.println(capitalizeTextCommand.execute("jeg har en fin dag. men deg er deg."));
+        //System.out.println(capitalizeTextCommand.execute("jeg har en fin dag. men deg er deg. kanskje bedre"));
 
         //CapitalizeSelectionTextCommand capitalizeSelectionTextCommand = new CapitalizeSelectionTextCommand("hei");
         //System.out.println(capitalizeSelectionTextCommand.execute("hei. hei hei hei. Brudda hei!"));
